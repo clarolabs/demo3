@@ -20,9 +20,7 @@ import org.json.simple.parser.JSONParser;
 
 import com.mysql.jdbc.PreparedStatement;
 
-/**
- * Servlet implementation class addborewell
- */
+
 @WebServlet("/addborewell")
 public class addborewell extends HttpServlet {
 	private static final long serialVersionUID = 1L;
