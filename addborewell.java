@@ -20,9 +20,7 @@ import org.json.simple.parser.JSONParser;
 
 import com.mysql.jdbc.PreparedStatement;
 
-/**
- * Servlet implementation class addborewell
- */
+
 @WebServlet("/addborewell")
 public class addborewell extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -32,9 +30,7 @@ public class addborewell extends HttpServlet {
 		doPost(request, response);
 		}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
